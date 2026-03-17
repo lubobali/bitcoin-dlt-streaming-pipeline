@@ -95,12 +95,19 @@ Both Silver and Quarantine read from the same enriched view. Silver keeps clean 
 
 ## Pipeline Results
 
+### DLT Pipeline — All Green
 ![Pipeline DAG](screenshots/pipeline_dag.png)
 
 - **Bronze**: 18 trades ingested
 - **Silver**: 15 clean trades (83.3%)
 - **Quarantine**: 3 bad trades captured (16.7%)
 - **Gold**: 1-minute OHLCV candlesticks
+
+### BTC Price & Volume
+![Price and Volume Charts](screenshots/charts_price_volume.png)
+
+### Data Quality — Quarantine Pattern in Action
+![Data Quality Charts](screenshots/charts_data_quality.png)
 
 ## Setup
 
